@@ -1,0 +1,10 @@
+title = "pi-r4-coder gitleaks config"
+
+[extend]
+useDefault = true
+
+[[rules]]
+id = "r4-coder-api-key"
+description = "R4 Coder API key"
+regex = '''\bcoder_[A-Za-z0-9_-]{20,}\b'''
+tags = ["key", "r4", "api"]

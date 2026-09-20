@@ -1,0 +1,20 @@
+# Dependencies
+node_modules/
+
+# Cache / build
+cache/
+dist/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Env / secrets
+.env
+.env.*
+.npmrc
+
+# OS / editors
+.DS_Store
+.vscode/
+.idea/

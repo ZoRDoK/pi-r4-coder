@@ -1,0 +1,4 @@
+# Published to npm — exclude test sources, git/config
+test.ts
+.gitignore
+.gitleaks.toml

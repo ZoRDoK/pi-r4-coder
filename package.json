@@ -1,0 +1,42 @@
+{
+	"name": "pi-r4-coder",
+	"version": "0.1.0",
+	"description": "R4 Coder (r4.codes) provider extension for pi",
+	"keywords": [
+		"pi",
+		"pi-extension",
+		"pi-package",
+		"r4",
+		"r4-coder",
+		"r4-codes",
+		"llm",
+		"ai-provider",
+		"openai-compatible"
+	],
+	"private": false,
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ZoRDoK/pi-r4-coder.git"
+	},
+	"bugs": {
+		"url": "https://github.com/ZoRDoK/pi-r4-coder/issues"
+	},
+	"homepage": "https://github.com/ZoRDoK/pi-r4-coder#readme",
+	"publishConfig": {
+		"access": "public"
+	},
+	"files": [
+		"index.ts",
+		"LICENSE",
+		"README.md"
+	],
+	"license": "MIT",
+	"engines": {
+		"node": ">=22.0.0"
+	},
+	"pi": {
+		"extensions": [
+			"./index.ts"
+		]
+	}
+}
